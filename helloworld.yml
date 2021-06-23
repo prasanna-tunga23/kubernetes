@@ -4,10 +4,10 @@ metadata:
   name: nodehelloworld.example.com
   labels:
     app: helloworld
- spec:
-  containers:
+spec:
+  continers:
   - name: k8s-demo
-    image: prasanna23tunga/k8s-demo
+    image: arjunchari12/k8s-demo
     ports:
     - name: nodejs-port
       containerPort: 3000
